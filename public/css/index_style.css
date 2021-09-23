@@ -1,0 +1,16 @@
+.container{
+    font-family: 'times new roman';
+    height: 1400px;
+    width: 1350px;
+    background-color: rgb(53, 53, 175);
+}
+
+.top{
+    height: 500px;
+    width: 1300px;
+    background-color: rgba(0, 255, 255, 0.623);
+}
+/*======body======*/
+p {
+    font-size: 36px;
+}
