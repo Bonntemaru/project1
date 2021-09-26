@@ -3,7 +3,12 @@
 const express = require('express');
 //impore mysql
 const connection = require('mysql');
+//import bootstrap
+const bootsratp = require('bootstrap');
 
+
+//menggunakan bootstrap
+const boot = bootstrap();
 //menggunakan express sebagai parameter
 const app = express();
 //menggunakan databases
