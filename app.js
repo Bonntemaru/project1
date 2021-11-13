@@ -1,8 +1,7 @@
 
 //import express
 const express = require('express');
-//impore mysql
-const connection = require('mysql');
+
 //import bootstrap
 const bootsratp = require('bootstrap');
 
@@ -11,7 +10,6 @@ const bootsratp = require('bootstrap');
 const boot = bootstrap();
 //menggunakan express sebagai parameter
 const app = express();
-//menggunakan databases
 
 //tambahkan route untuk halaman hello
 app.get('/hello',(req, res)=>{
